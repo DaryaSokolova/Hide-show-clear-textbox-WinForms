@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 namespace Project21 {
 
@@ -10,7 +10,7 @@ namespace Project21 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Project21 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -43,14 +43,14 @@ namespace Project21 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -78,7 +78,7 @@ namespace Project21 {
 			this->btnHide->Name = L"btnHide";
 			this->btnHide->Size = System::Drawing::Size(75, 23);
 			this->btnHide->TabIndex = 1;
-			this->btnHide->Text = L"Скрыть";
+			this->btnHide->Text = L"РЎРєСЂС‹С‚СЊ";
 			this->btnHide->UseVisualStyleBackColor = true;
 			this->btnHide->Click += gcnew System::EventHandler(this, &MyForm::btnHide_Click);
 			// 
@@ -88,7 +88,7 @@ namespace Project21 {
 			this->btnShow->Name = L"btnShow";
 			this->btnShow->Size = System::Drawing::Size(75, 23);
 			this->btnShow->TabIndex = 2;
-			this->btnShow->Text = L"Показать";
+			this->btnShow->Text = L"РџРѕРєР°Р·Р°С‚СЊ";
 			this->btnShow->UseVisualStyleBackColor = true;
 			this->btnShow->Click += gcnew System::EventHandler(this, &MyForm::btnShow_Click);
 			// 
@@ -98,7 +98,7 @@ namespace Project21 {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 23);
 			this->button3->TabIndex = 3;
-			this->button3->Text = L"Очистить";
+			this->button3->Text = L"РћС‡РёСЃС‚РёС‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -120,7 +120,7 @@ namespace Project21 {
 			this->Controls->Add(this->btnHide);
 			this->Controls->Add(this->lblTask);
 			this->Name = L"MyForm";
-			this->Text = L"Упражнение 1";
+			this->Text = L"РЈРїСЂР°Р¶РЅРµРЅРёРµ 1";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -134,7 +134,7 @@ namespace Project21 {
 		}
 		else
 		{
-			MessageBox::Show("Уже скрыто");
+			MessageBox::Show("РЈР¶Рµ СЃРєСЂС‹С‚Рѕ");
 		}
 	}
 
@@ -146,7 +146,7 @@ namespace Project21 {
 		}
 		else
 		{
-			MessageBox::Show("Уже показано");
+			MessageBox::Show("РЈР¶Рµ РїРѕРєР°Р·Р°РЅРѕ");
 		}
 	}
 
@@ -158,7 +158,7 @@ namespace Project21 {
 		}
 		else
 		{
-			MessageBox::Show("Уже пустое");
+			MessageBox::Show("РЈР¶Рµ РїСѓСЃС‚РѕРµ");
 		}
 	}
 };
